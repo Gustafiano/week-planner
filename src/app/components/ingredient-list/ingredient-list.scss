@@ -3,9 +3,40 @@
     flex-direction: row;
     gap: 0.5rem;
     padding-left: 1rem;
+    overflow-y: auto;
+    max-height: calc(100vh - 184px);
+    max-width: 700px; // or whatever width fits your design
+    box-shadow: 0 0 8px #eee; // optional, for clarity
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 6px;
 }
 .optional-ingredients {
     padding-left: 1rem;
     margin-left: 1rem;
     border-left : 1px solid #ccc;
+    
+}
+.custom-ingredients {
+    display: flex;
+    flex-direction: column; // Stack entries vertically
+    gap: 0.2rem;
+}
+.custom-ingredient-row {
+    display: flex;
+    flex-direction: row; // Each entry and its button in a row
+    align-items: center;
+    gap: 0.5rem;
+}
+.remove-button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.custom-ingredient-input {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.2rem;
+    margin-top:1rem;
+    margin-left: -2.5rem;
 }

@@ -5,6 +5,15 @@
     @for (ing of ingredients(); track ing.name) {
       <li>{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
     }
+    <div class="custom-ingredients">
+    @for (ing of customIngredients(); track ing.name) {
+      <div class="custom-ingredient-row">
+        <li>{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
+        <button class="remove-button" (click)="selection.removeCustomIngredient(ing)">X</button>
+      </div>
+    }
+    </div>
+    <input class="custom-ingredient-input" type="text" placeholder="Lägg till" (keydown)="onKeydown($event)">
   </ul>
 </div>
 <div class="optional-ingredients">

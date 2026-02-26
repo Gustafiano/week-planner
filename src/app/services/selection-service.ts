@@ -12,6 +12,9 @@ interface AggregatedIngredient extends Ingredient {
 export class SelectionService {
   private selectedSignal = signal<Recipe[]>([]);
   readonly selected = this.selectedSignal;
+
+  private customIngredientsSignal = signal<Ingredient[]>([]);
+  readonly customIngredients = this.customIngredientsSignal;
   
   readonly ingredients = computed(() => {
     const recipes = this.selectedSignal();
@@ -82,4 +85,25 @@ export class SelectionService {
   isSelected(recipe: Recipe) {
     return this.selectedSignal().some((r) => r.id === recipe.id);
   }
+
+  addCustomIngredient(ingredient: Ingredient) {
+    this.customIngredientsSignal.set([...this.customIngredientsSignal(), ingredient]);
+  }
+
+  removeCustomIngredient(ingredient: Ingredient) {
+    this.customIngredientsSignal.set(this.customIngredientsSignal().filter((ing) => ing.name !== ingredient.name));
+  }
+
+  // addIngredient(ingredient: Ingredient) {
+  //   const newIngredient: AggregatedIngredient = { ...ingredient, recipes: [] };
+  //   const existing = this.ingredients().find(ing => ing.name.toLowerCase() === ingredient.name.toLowerCase());
+  //   if (existing) {
+  //     if (existing.quantity && ingredient.quantity && !isNaN(Number(existing.quantity)) && !isNaN(Number(ingredient.quantity))) {
+  //       existing.quantity = String(Number(existing.quantity) + Number(ingredient.quantity));
+  //     }
+  //   }
+  //   this.ingredients().push(newIngredient);
+  // }
+
+
 }

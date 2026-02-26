@@ -1,14 +1,13 @@
-
 <div class="container">
   <div class="list left">
     <h3>Recept</h3>
+    <input type="text" placeholder="Sök recept..." (input)="onSearchInput($event.target.value)">
     <ul>
-        @for (r of recipes; track r.name) {
+        @for (r of filteredRecipes(); track r.name) {
           <li (click)="add(r)" [class.chosen]="isSelected(r)">{{ r.name }} ({{ r.portions }})</li>
         }
     </ul>
   </div>
-
   <div class="list right">
     <h3>Valda ({{ selectedPortionTotal }})</h3>
     <ul>

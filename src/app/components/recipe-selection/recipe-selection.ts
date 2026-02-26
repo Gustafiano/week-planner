@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import type { Recipe } from '../../models/recipe';
 import recipes from "../../../assets/recipes.json"
@@ -15,6 +15,16 @@ export class RecipeSelection implements OnInit {
   recipes: Recipe[] = [];
   selected!: any;
 
+  // --- Add these lines ---
+  searchTerm = signal('');
+  private searchTimeout: any;
+  filteredRecipes = computed(() =>
+    this.recipes.filter(r =>
+      r.name.toLowerCase().includes(this.searchTerm().toLowerCase()) || r.category.toLowerCase().includes(this.searchTerm().toLowerCase())
+    )
+  );
+  // -----------------------
+
   constructor(private selection: SelectionService) {}
 
   get selectedPortionTotal() {
@@ -25,6 +35,15 @@ export class RecipeSelection implements OnInit {
     this.recipes = recipes.recipes;
     this.selected = this.selection.selected;
   }
+
+  // --- Add this method ---
+  onSearchInput(value: string) {
+    clearTimeout(this.searchTimeout);
+    this.searchTimeout = setTimeout(() => {
+      this.searchTerm.set(value);
+    }, 10);
+  }
+  // ----------------------
 
   add(recipe: Recipe): void {
     this.selection.add(recipe);
@@ -37,5 +56,4 @@ export class RecipeSelection implements OnInit {
   isSelected(recipe: Recipe): boolean {
     return this.selection.isSelected(recipe);
   }
-
 }

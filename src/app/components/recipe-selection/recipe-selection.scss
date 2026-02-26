@@ -1,8 +1,7 @@
 .container {
   display: flex;
   gap: 16px;
-  padding: 16px;
-  max-width: 50%;
+  padding: 0px 16px 16px 16px;
 }
 
 .list {
@@ -12,6 +11,8 @@
   border-radius: 6px;
   padding: 8px;
   background: var(--mat-sys-surface, #fff);
+  overflow-y: auto;
+  max-height: calc(100vh - 200px);
 }
 
 .list h3 {

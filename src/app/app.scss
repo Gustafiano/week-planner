@@ -1,0 +1,9 @@
+.recipe-and-ingredient-container {
+  display: flex;
+  gap: 10px;
+}
+
+.recipe-and-ingredient-container > * {
+  flex: 1 1 50%;
+  max-width: 50%;
+}
