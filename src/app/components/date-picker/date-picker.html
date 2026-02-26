@@ -1,0 +1,15 @@
+<div class="container">
+<mat-form-field>
+  <mat-label>Välj Datum</mat-label>
+  <mat-date-range-input [rangePicker]="picker" #dateRange>
+    <input matStartDate placeholder="Startdatum"
+           (dateChange)="onDateRangeChange({ start: dateRange.value?.start, end: dateRange.value?.end })">
+    <input matEndDate placeholder="Slutdatum"
+           (dateChange)="onDateRangeChange({ start: dateRange.value?.start, end: dateRange.value?.end })">
+  </mat-date-range-input>
+  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-date-range-picker #picker></mat-date-range-picker>
+</mat-form-field>
+
+Portioner: <input type="number" [value]="daysTimesFour">
+</div>

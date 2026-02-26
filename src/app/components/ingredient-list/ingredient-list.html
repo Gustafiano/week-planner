@@ -1,0 +1,18 @@
+<div class="container">
+  <div>
+  <h3>Ingredienser</h3>
+  <ul>
+    @for (ing of ingredients(); track ing.name) {
+      <li>{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
+    }
+  </ul>
+</div>
+<div class="optional-ingredients">
+  <h3>Valfria ingredienser</h3>
+  <ul>
+    @for (ing of optionalIngredients(); track ing.name) {
+      <li>{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
+    }
+  </ul>
+  </div>
+</div>

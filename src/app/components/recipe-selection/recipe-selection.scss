@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  max-width: 50%;
+}
+
+.list {
+  flex: 1;
+  min-height: 200px;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 6px;
+  padding: 8px;
+  background: var(--mat-sys-surface, #fff);
+}
+
+.list h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+}
+
+.list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  padding: 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  cursor: pointer;
+  user-select: none;
+}
+
+.list li:hover {
+  background: rgba(0,0,0,0.03);
+}
+
+.left li.chosen {
+  font-style: italic;
+  color: #aaaaaa;
+}

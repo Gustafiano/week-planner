@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RecipeSelection } from "./components/recipe-selection/recipe-selection";
+import { DatePicker } from "./components/date-picker/date-picker";
+import { IngredientList } from "./components/ingredient-list/ingredient-list";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RecipeSelection, DatePicker, IngredientList],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

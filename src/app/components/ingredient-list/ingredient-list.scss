@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding-left: 1rem;
+}
+.optional-ingredients {
+    padding-left: 1rem;
+    margin-left: 1rem;
+    border-left : 1px solid #ccc;
+}
