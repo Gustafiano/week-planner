@@ -1,0 +1,537 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Nötfärs", "quantity": "500", "unit": "g" },
+        { "name": "Krossade Tomater", "quantity": "1", "unit": "frp" }
+      ],
+      "optional_ingredients": [
+        { "name": "Spaghetti", "quantity": "400", "unit": "g" },
+        { "name": "Parmesanost", "quantity": "1", "unit": "dl" },
+        { "name": "Köttbuljongtärning", "quantity": "1", "unit": "st" },
+        { "name": "Tomatpuré", "quantity": "2", "unit": "msk" },
+        { "name": "Matlagningsvin Vitt", "quantity": "1", "unit": "dl" }
+      ],
+      "category": "Färs"
+    },
+    {
+      "id": 2,
+      "name": "Mongoliska nudlar med färs",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Nötfärs", "quantity": "400", "unit": "g" },
+        { "name": "Hoisinsås", "quantity": "0.5", "unit": "dl" },
+        { "name": "Sesamolja", "quantity": "", "unit": "" }
+      ],
+      "optional_ingredients": [
+        { "name": "Linguinepasta", "quantity": "300", "unit": "g" },
+        { "name": "Ingefärapulver", "quantity": "2", "unit": "tsk" },
+        { "name": "Soja", "quantity": "", "unit": "" },
+        { "name": "Sesamfrön", "quantity": "", "unit": "" },
+        { "name": "Brunt farinsocker", "quantity": "0.5", "unit": "dl" },
+        { "name": "Krispig chili i olja", "quantity": "2", "unit": "msk" }
+      ],
+      "category": "Färs"
+    },
+    {
+      "id": 3,
+      "name": "Thailändsk Pad Krapow",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Nötfärs", "quantity": "600", "unit": "g" },
+        { "name": "Thaibasilika", "quantity": "", "unit": "" },
+        { "name": "Ostronsås", "quantity": "2", "unit": "msk" },
+        { "name": "Röd paprika", "quantity": "1", "unit": "st" }
+      ],
+      "optional_ingredients": [
+        { "name": "Soja", "quantity": "", "unit": "" },
+        { "name": "Fisksås", "quantity": "2", "unit": "tsk" },
+        { "name": "Chilisås", "quantity": "2", "unit": "tsk" }
+      ],
+      "category": "Färs"
+    },
+    {
+      "id": 4,
+      "name": "Tacogratäng",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Nötfärs", "quantity": "500", "unit": "g" },
+        { "name": "Salsasås", "quantity": "1", "unit": "burk" },
+        { "name": "Crème fraiche", "quantity": "2", "unit": "dl" },
+        { "name": "Riven ost", "quantity": "2", "unit": "pkt" },
+        { "name": "Cocktailtomater", "quantity": "250", "unit": "g" },
+        { "name": "Picklad rödlök", "quantity": "", "unit": "" }
+      ],
+      "optional_ingredients": [{ "name": "Nachochips", "quantity": "", "unit": "" }],
+      "category": "Färs"
+    },
+    {
+      "id": 5,
+      "name": "Biff med bambuskott",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Lövbiff", "quantity": "400", "unit": "g" },
+        { "name": "Hoisinsås", "quantity": "0.45", "unit": "dl" },
+        { "name": "Ostronsås", "quantity": "3", "unit": "msk" },
+        { "name": "Bambuskott", "quantity": "1", "unit": "stor burk" }
+      ],
+      "optional_ingredients": [
+        { "name": "Ingefärapulver", "quantity": "2", "unit": "tsk" },
+        { "name": "Soja", "quantity": "", "unit": "" },
+        { "name": "Majsstärkelse", "quantity": "2", "unit": "msk" },
+        { "name": "Bikarbonat", "quantity": "1", "unit": "tsk" }
+      ],
+      "category": "Diverse"
+    },
+    {
+      "id": 6,
+      "name": "Kasslergryta med curry och chili",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Kassler", "quantity": "400", "unit": "g" },
+        { "name": "Vispgrädde", "quantity": "2", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Sambal oelek", "quantity": "1", "unit": "tsk" },
+        { "name": "Chilisås", "quantity": "1", "unit": "dl" }
+      ],
+      "category": "Diverse"
+    },
+    {
+      "id": 7,
+      "name": "Pasta med kalkon och oregano",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Broccoli", "quantity": "250", "unit": "g" },
+        { "name": "Matlagningsgrädde", "quantity": "2.5", "unit": "dl" },
+        { "name": "Rökt skivad kalkon", "quantity": "240", "unit": "g" }
+      ],
+      "optional_ingredients": [
+        { "name": "Tagliatelle", "quantity": "400", "unit": "g" },
+        { "name": "Mjölk", "quantity": "1.5", "unit": "dl" },
+        { "name": "Majsstärkelse", "quantity": "1", "unit": "tsk" },
+        { "name": "Kycklingbuljongtärning", "quantity": "1", "unit": "st" }
+      ],
+      "category": "Diverse"
+    },
+    {
+      "id": 8,
+      "name": "Honungsglaserad fläskytterfilé i ugn",
+      "portions": 4,
+      "ingredients": [{ "name": "Fläskytterfilé", "quantity": "600", "unit": "g" }],
+      "optional_ingredients": [
+        { "name": "Soja", "quantity": "", "unit": "" },
+        { "name": "Sötsursås", "quantity": "", "unit": "" },
+        { "name": "Chiliflakes", "quantity": "1", "unit": "tsk" },
+        { "name": "Balsamvinäger", "quantity": "2", "unit": "msk" },
+        { "name": "Flytande honung", "quantity": "0.5", "unit": "dl" }
+      ],
+      "category": "Diverse"
+    },
+    {
+      "id": 9,
+      "name": "Pulled beef",
+      "portions": 6,
+      "ingredients": [
+        { "name": "Högrev", "quantity": "1.5", "unit": "kg" },
+        { "name": "Apelsin", "quantity": "1", "unit": "st" }
+      ],
+      "optional_ingredients": [
+        { "name": "Ketchup", "quantity": "1", "unit": "dl" },
+        { "name": "Soja", "quantity": "", "unit": "" },
+        { "name": "Dijonsenap", "quantity": "1", "unit": "tsk" }
+      ],
+      "category": "Diverse"
+    },
+    {
+      "id": 10,
+      "name": "Fetaostbiffar",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Blandfärs", "quantity": "500", "unit": "g" },
+        { "name": "Ägg", "quantity": "1", "unit": "st" },
+        { "name": "Citron", "quantity": "1", "unit": "st" },
+        { "name": "Potatis", "quantity": "", "unit": "" },
+        { "name": "Tzatziki", "quantity": "", "unit": "" },
+        { "name": "Fetaost", "quantity": "1", "unit": "frp" }
+      ],
+      "optional_ingredients": [],
+      "category": "Färs"
+    },
+    {
+      "id": 11,
+      "name": "Kycklinggratäng",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Kycklinglårfilé", "quantity": "600", "unit": "g" },
+        { "name": "Soltorkade tomater i olja", "quantity": "10", "unit": "st" },
+        { "name": "Vispgrädde", "quantity": "1.5", "unit": "dl" },
+        { "name": "Parmesanost", "quantity": "1", "unit": "dl" }
+      ],
+      "optional_ingredients": [{ "name": "Kycklingbuljongtärning", "quantity": "1", "unit": "st" }],
+      "category": "Kyckling"
+    },
+    {
+      "id": 12,
+      "name": "Filippinsk kyckling adobo",
+      "portions": 4,
+      "ingredients": [{ "name": "Kycklingklubbor", "quantity": "4", "unit": "st" }],
+      "optional_ingredients": [
+        { "name": "Soja", "quantity": "", "unit": "" },
+        { "name": "Vitvinsvinäger", "quantity": "0.5", "unit": "dl" }
+      ],
+      "category": "Kyckling"
+    },
+    {
+      "id": 13,
+      "name": "Kycklingwraps",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Tunnbröd", "quantity": "8", "unit": "st" },
+        { "name": "Kycklinglårfilé", "quantity": "800", "unit": "g" },
+        { "name": "Gräddfil", "quantity": "1", "unit": "dl" },
+        { "name": "Röd paprika", "quantity": "1", "unit": "st" },
+        { "name": "Bacon", "quantity": "100", "unit": "g" }
+      ],
+      "optional_ingredients": [{ "name": "Majonnäs", "quantity": "1", "unit": "dl" }],
+      "category": "Kyckling"
+    },
+    {
+      "id": 14,
+      "name": "Kyckling stroganoff",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Kycklinglårfilé", "quantity": "600", "unit": "g" },
+        { "name": "Röd paprika", "quantity": "1", "unit": "st" },
+        { "name": "Tomatpuré", "quantity": "0.5", "unit": "dl" },
+        { "name": "Crème fraiche", "quantity": "2", "unit": "dl" }
+      ],
+      "optional_ingredients": [{ "name": "Hönsbuljongtärning", "quantity": "1", "unit": "st" }],
+      "category": "Kyckling"
+    },
+    {
+      "id": 15,
+      "name": "Pasta Alfredo",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Kycklingbröstfilé", "quantity": "4", "unit": "st" },
+        { "name": "Färskost", "quantity": "100", "unit": "g" },
+        { "name": "Vispgrädde", "quantity": "3", "unit": "dl" },
+        { "name": "Parmesanost", "quantity": "1", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Tagliatelle", "quantity": "400", "unit": "g" },
+        { "name": "Kycklingfond", "quantity": "1.5-2", "unit": "msk" }
+      ],
+      "category": "Kyckling"
+    },
+    {
+      "id": 16,
+      "name": "Baconlindad kycklingfilé",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Kycklingbröstfilé", "quantity": "4", "unit": "st" },
+        { "name": "Bacon", "quantity": "140", "unit": "g" }
+      ],
+      "optional_ingredients": [],
+      "category": "Kyckling"
+    },
+    {
+      "id": 17,
+      "name": "Kycklinggryta med sweet chili",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Kycklinglårfilé", "quantity": "600", "unit": "g" },
+        { "name": "Röd paprika", "quantity": "1", "unit": "st" },
+        { "name": "Broccoli", "quantity": "250", "unit": "g" },
+        { "name": "Crème fraîche", "quantity": "4", "unit": "dl" },
+        { "name": "Fisksås", "quantity": "1", "unit": "msk" }
+      ],
+      "optional_ingredients": [
+        { "name": "Limejuice", "quantity": "1", "unit": "msk" },
+        { "name": "Sweet chilisås", "quantity": "2", "unit": "dl" }
+      ],
+      "category": "Kyckling"
+    },
+    {
+      "id": 18,
+      "name": "Kycklingburgare",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Kycklingbröstfilé", "quantity": "4", "unit": "st" },
+        { "name": "Hamburgerbröd", "quantity": "4", "unit": "st" },
+        { "name": "Ägg", "quantity": "2", "unit": "st" },
+        { "name": "Hamburgerost", "quantity": "4", "unit": "skivor" },
+        { "name": "Hamburgerdressing", "quantity": "1", "unit": "st" }
+      ],
+      "optional_ingredients": [
+        { "name": "Pankoströbröd", "quantity": "3", "unit": "dl" },
+        { "name": "Sallad", "quantity": "", "unit": "" },
+        { "name": "Gurka", "quantity": "", "unit": "" }
+      ],
+      "category": "Kyckling"
+    },
+    {
+      "id": 19,
+      "name": "Kyckling satay med jordnötssås",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Kycklinglårfilé", "quantity": "600", "unit": "g" },
+        { "name": "Fisksås", "quantity": "2", "unit": "msk" },
+        { "name": "Socker", "quantity": "4", "unit": "msk" },
+        { "name": "Jordnötssmör med bitar", "quantity": "1", "unit": "dl" },
+        { "name": "Kokosmjölk", "quantity": "2", "unit": "dl" },
+        { "name": "Gurkmeja", "quantity": "1", "unit": "tsk" }
+      ],
+      "optional_ingredients": [
+        { "name": "Ingefärapulver", "quantity": "1", "unit": "tsk" },
+        { "name": "Soja", "quantity": "", "unit": "" },
+        { "name": "Sesamolja", "quantity": "", "unit": "" },
+        { "name": "Sambal oelek", "quantity": "1", "unit": "tsk" }
+      ],
+      "category": "Kyckling"
+    },
+    {
+      "id": 20,
+      "name": "Sweet chili lax",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Lax", "quantity": "600", "unit": "g" },
+        { "name": "Kokosmjölk", "quantity": "5", "unit": "dl" },
+        { "name": "Sweet chili", "quantity": "1", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Ingefärapulver", "quantity": "0.5", "unit": "msk" },
+        { "name": "Röd currypasta", "quantity": "2", "unit": "msk" },
+        { "name": "Limejuice", "quantity": "1", "unit": "msk" }
+      ],
+      "category": "Fisk"
+    },
+    {
+      "id": 21,
+      "name": "Kokosgryta med lax",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Lax", "quantity": "500", "unit": "g" },
+        { "name": "Kokosmjölk", "quantity": "4", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Soja", "quantity": "1", "unit": "msk" },
+        { "name": "Röd currypasta", "quantity": "2", "unit": "msk" }
+      ],
+      "category": "Fisk"
+    }
+  ,
+    {
+      "id": 22,
+      "name": "Palak paneer",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Tomat", "quantity": "2", "unit": "st" },
+        { "name": "Garam masala", "quantity": "1", "unit": "msk" },
+        { "name": "Krossade tomater", "quantity": "1", "unit": "frp" },
+        { "name": "Vispgrädde", "quantity": "2", "unit": "dl" },
+        { "name": "Färsk spenat", "quantity": "200", "unit": "g" },
+        { "name": "Halloumi", "quantity": "400", "unit": "g" }
+      ],
+      "optional_ingredients": [
+        { "name": "Ingefärapulver", "quantity": "1", "unit": "msk" },
+        { "name": "Tomatpuré", "quantity": "2", "unit": "msk" },
+        { "name": "Grönsaksfond", "quantity": "", "unit": "" }
+      ],
+      "category": "Vegetarisk"
+    }
+  ,
+    {
+      "id": 23,
+      "name": "Halloumi stroganoff",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Halloumi", "quantity": "400", "unit": "g" },
+        { "name": "Röd paprika", "quantity": "2", "unit": "st" },
+        { "name": "Vispgrädde", "quantity": "3", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Vitvinsvinäger", "quantity": "1", "unit": "msk" },
+        { "name": "Tomatpuré", "quantity": "3", "unit": "msk" },
+        { "name": "Soja", "quantity": "", "unit": "" },
+        { "name": "Grönsaksfond", "quantity": "", "unit": "" }
+      ],
+      "category": "Vegetarisk"
+    }
+  ,
+    {
+      "id": 24,
+      "name": "Pannkakor",
+      "portions": 2,
+      "ingredients": [
+        { "name": "Ägg", "quantity": "3", "unit": "st" },
+        { "name": "Vispgrädde", "quantity": "1", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Sylt", "quantity": "", "unit": "" },
+        { "name": "Mjölk", "quantity": "6", "unit": "dl" }
+      ],
+      "category": "Diverse"
+    }
+  ,
+    {
+      "id": 25,
+      "name": "Korean-style tortilla",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Limejuice", "quantity": "4", "unit": "msk" },
+        { "name": "Nötfärs", "quantity": "500", "unit": "g" },
+        { "name": "Vitkål", "quantity": "200", "unit": "g" },
+        { "name": "Crème fraîche", "quantity": "2", "unit": "dl" },
+        { "name": "Tortillabröd", "quantity": "8", "unit": "st" }
+      ],
+      "optional_ingredients": [
+        
+        { "name": "Ingefärapulver", "quantity": "0.5", "unit": "msk" },
+        { "name": "Gurka", "quantity": "1", "unit": "st" },
+        { "name": "Vitvinsvinäger", "quantity": "2", "unit": "msk" },
+        { "name": "Soja", "quantity": "", "unit": "" }
+      ],
+      "category": "Färs"
+    }
+  ,
+    {
+      "id": 26,
+      "name": "Carbonara",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Bacon", "quantity": "280", "unit": "g" },
+        { "name": "Parmesanost", "quantity": "2", "unit": "dl" },
+        { "name": "Ägg", "quantity": "4", "unit": "st" },
+        { "name": "Vispgrädde", "quantity": "1", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        
+        { "name": "Spaghetti", "quantity": "400", "unit": "g" }
+      ],
+      "category": "Diverse"
+    }
+  ,
+    {
+      "id": 27,
+      "name": "Pasta Amatriciana",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Pannacotta", "quantity": "300", "unit": "g" },
+        { "name": "Konserverade körsbärstomater", "quantity": "400", "unit": "g" },
+        { "name": "Pecorinoost", "quantity": "100", "unit": "g" }
+      ],
+      "optional_ingredients": [
+        { "name": "Pasta", "quantity": "400", "unit": "g" }
+      ],
+      "category": "Diverse"
+    }
+  ,
+    {
+      "id": 28,
+      "name": "Tacopaj",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Pajdeg", "quantity": "1", "unit": "st" },
+        { "name": "Blandfärs", "quantity": "500", "unit": "g" },
+        { "name": "Creme fraiche", "quantity": "2", "unit": "dl" },
+        { "name": "Riven ost", "quantity": "2", "unit": "pkt" }
+      ],
+      "optional_ingredients": [],
+      "category": "Färs"
+    }
+  ,
+    {
+      "id": 29,
+      "name": "Kycklingpasta",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Kycklinglårfilé", "quantity": "800", "unit": "g" },
+        { "name": "Creme fraiche", "quantity": "5", "unit": "dl" },
+        { "name": "Färsk babyspenat", "quantity": "150", "unit": "g" }
+      ],
+      "optional_ingredients": [
+        { "name": "Soja", "quantity": "", "unit": "" },
+        { "name": "Pasta", "quantity": "400", "unit": "g" }
+      ],
+      "category": "Kyckling"
+    }
+  ,
+    {
+      "id": 30,
+      "name": "Mexikansk räkgryta",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Grön paprika", "quantity": "1", "unit": "st" },
+        { "name": "Vispgrädde", "quantity": "2", "unit": "dl" },
+        { "name": "Räkor (med skal)", "quantity": "500", "unit": "g" },
+        { "name": "Apelsin", "quantity": "1", "unit": "st" }
+      ],
+      "optional_ingredients": [
+        
+        { "name": "Chilisås", "quantity": "1", "unit": "dl" },
+        { "name": "Vetemjöl", "quantity": "1", "unit": "msk" }
+      ],
+      "category": "Fisk"
+    }
+  ,
+    {
+      "id": 31,
+      "name": "Hamburgare",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Högrevsfärs", "quantity": "720", "unit": "g" },
+        { "name": "Hamburgerbröd", "quantity": "4", "unit": "st" },
+        { "name": "Hamburgerdressing", "quantity": "1", "unit": "st" },
+        { "name": "Hamburgerost", "quantity": "8", "unit": "st" },
+        { "name": "Bacon", "quantity": "140", "unit": "g" }
+      ],
+      "optional_ingredients": [
+        { "name": "Gurka", "quantity": "", "unit": "" },
+        { "name": "Sallad", "quantity": "", "unit": "" },
+        { "name": "Rostad lök", "quantity": "", "unit": "" },
+        { "name": "Strips", "quantity": "", "unit": "" }
+      ],
+      "category": "Färs"
+    }
+  ,
+    {
+      "id": 32,
+      "name": "Halloumi hamburgare",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Halloumiost", "quantity": "400", "unit": "g" },
+        { "name": "Hamburgerbröd", "quantity": "4", "unit": "st" },
+        { "name": "Hamburgerdressing", "quantity": "1", "unit": "st" },
+        { "name": "Picklad rödlök", "quantity": "", "unit": "" }
+      ],
+      "optional_ingredients": [
+        { "name": "Gurka", "quantity": "", "unit": "" },
+        { "name": "Sallad", "quantity": "", "unit": "" },
+        { "name": "Rostad lök", "quantity": "", "unit": "" },
+        { "name": "Strips", "quantity": "", "unit": "" }
+      ],
+      "category": "Vegetarisk"
+    }
+  ,
+    {
+      "id": 33,
+      "name": "Liba pizza",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Libabröd", "quantity": "4", "unit": "st" },
+        { "name": "Pizza tomatsås", "quantity": "1", "unit": "st" },
+        { "name": "Riven ost", "quantity": "2", "unit": "pkt" },
+        { "name": "Prosciutto Crudo", "quantity": "1", "unit": "pkt" },
+        { "name": "Bacon", "quantity": "280", "unit": "g" },
+        { "name": "Tonfisk", "quantity": "1", "unit": "frp" }
+      ],
+      "optional_ingredients": [],
+      "category": "Diverse"
+    }
+  ]
+}
