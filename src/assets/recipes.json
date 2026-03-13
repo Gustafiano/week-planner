@@ -532,6 +532,71 @@
       ],
       "optional_ingredients": [],
       "category": "Diverse"
+    },
+    {
+      "id": 34,
+      "name": "Taco",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Nötfärs", "quantity": "400", "unit": "g" },
+        { "name": "Taco tubs", "quantity": "8", "unit": "st" },
+        { "name": "Riven ost", "quantity": "2", "unit": "pkt" },
+        { "name": "Salsa", "quantity": "1", "unit": "flaska" },
+        { "name": "Gräddfil", "quantity": "2", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Majs", "quantity": "1", "unit": "burk" },
+        { "name": "Tacokrydda", "quantity": "", "unit": "" }
+      ],
+      "category": "Färs"
+    },
+    {
+      "id": 35,
+      "name": "Tortilla",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Nötfärs", "quantity": "400", "unit": "g" },
+        { "name": "Tortillabröd", "quantity": "8", "unit": "st" },
+        { "name": "Riven ost", "quantity": "2", "unit": "pkt" },
+        { "name": "Salsa", "quantity": "1", "unit": "flaska" },
+        { "name": "Gräddfil", "quantity": "2", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Majs", "quantity": "1", "unit": "burk" },
+        { "name": "Tacokrydda", "quantity": "", "unit": "" }
+      ],
+      "category": "Färs"
+    },
+    {
+      "id": 36,
+      "name": "Nachos",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Nötfärs", "quantity": "400", "unit": "g" },
+        { "name": "Nachochips", "quantity": "8", "unit": "st" },
+        { "name": "Riven ost", "quantity": "2", "unit": "pkt" },
+        { "name": "Salsa", "quantity": "1", "unit": "flaska" },
+        { "name": "Gräddfil", "quantity": "2", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Tacokrydda", "quantity": "", "unit": "" }
+      ],
+      "category": "Färs"
+    }
+    ,
+    {
+      "id": 37,
+      "name": "Morots- och halloumibiffar",
+      "portions": 4,
+      "ingredients": [
+        { "name": "Morot", "quantity": "3", "unit": "st (ca 250 g)" },
+        { "name": "Halloumi", "quantity": "1", "unit": "200 g" },
+        { "name": "Ägg", "quantity": "2", "unit": "st" },
+        { "name": "Ströbröd", "quantity": "0.75", "unit": "dl" }
+      ],
+      "optional_ingredients": [
+        { "name": "Chiliflakes", "quantity": "1", "unit": "tsk" }],
+      "category": "Vegetarisk"
     }
   ]
-}
+  }

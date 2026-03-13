@@ -1,27 +1,27 @@
 <div class="container">
   <div>
-  <h3>Ingredienser</h3>
-  <ul>
-    @for (ing of ingredients(); track ing.name) {
-      <li>{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
-    }
-    <div class="custom-ingredients">
-    @for (ing of customIngredients(); track ing.name) {
-      <div class="custom-ingredient-row">
-        <li>{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
-        <button class="remove-button" (click)="selection.removeCustomIngredient(ing)">X</button>
+    <h3>Ingredienser</h3>
+    <ul>
+      @for (recipe of selection.selected(); track recipe.id) {
+        <li><strong>{{ recipe.name }}</strong></li>
+        @for (ing of recipe.ingredients; track ing.name) {
+          <li>{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
+        }
+        @if (recipe.optional_ingredients?.length) {
+          @for (ing of recipe.optional_ingredients; track ing.name) {
+            <li class="optional-ingredient">{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
+          }
+        }
+      }
+      <div class="custom-ingredients">
+        @for (ing of customIngredients(); track ing.name) {
+          <div class="custom-ingredient-row">
+            <li>{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
+            <button class="remove-button" (click)="selection.removeCustomIngredient(ing)">X</button>
+          </div>
+        }
       </div>
-    }
-    </div>
-    <input class="custom-ingredient-input" type="text" placeholder="Lägg till" (keydown)="onKeydown($event)">
-  </ul>
-</div>
-<div class="optional-ingredients">
-  <h3>Valfria ingredienser</h3>
-  <ul>
-    @for (ing of optionalIngredients(); track ing.name) {
-      <li>{{ ing.name }} {{ ing.quantity }} {{ ing.unit }}</li>
-    }
-  </ul>
+      <input class="custom-ingredient-input" type="text" placeholder="Lägg till" (keydown)="onKeydown($event)">
+    </ul>
   </div>
 </div>
